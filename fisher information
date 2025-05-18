@@ -1,0 +1,35 @@
+idea: information in X about theta, X ~ p(theta)
+- low variance -> higher information
+
+
+score
+depends on
+- dependency of X' distribution on theta
+-> for different thetas, there is differently strong score
+
+
+
+fisher information
+
+
+depends on
+- distribution of X under theta
+- expected value of score function, given theta
+
+WHY is it a function, of theta, if its about X ? 
+
+
+
+
+dayan abbot explanation
+
+look at  appendix b
+
+
+- fisher information provide measure of optimal possible decoding accuracy
+
+- ML method is unbiased and saturates cramer rao bound
+
+- fisher information is measure of curvature of log-likelihood at stimulus s, low  curvature many  other stimuli provide similar response and therefore information is low
+
+- fisher information is purely local
